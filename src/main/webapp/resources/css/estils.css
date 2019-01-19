@@ -1,0 +1,763 @@
+@charset "UTF-8";
+body {
+    width: 100%;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: #373640;
+    font-weight: bolder;
+    font-size: 70px;
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 6vh;
+        text-align:center;
+    }
+}
+h2 {
+    color: #373640;
+    font-weight: bolder;
+    font-size: 50px;
+}
+h3 {
+    color: #373640;
+    font-weight: bolder;
+    font-size:30px;
+}
+h4 {
+    color: #373640;
+    font-weight: bolder;
+    font-size:20px;
+}
+a {
+    font-weight:bold;
+    text-decoration:none;
+
+}
+/* NAVBAR */
+.navbar {
+    padding: 20px 150px;
+    background-color: #373640;
+    color: #63686E;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 20px 22px 0px rgba(0,0,0,0.78);
+    -moz-box-shadow: 0px 20px 22px 0px rgba(0,0,0,0.78);
+    box-shadow: 0px 20px 22px 0px rgba(0,0,0,0.78);
+}
+@media (max-width: 576px) {
+    .navbar {
+        padding: 20px 10px;
+    }
+}
+
+
+.nav-link {
+    color: rgb(126,126,126);
+}
+
+.nav-link.active {
+    background-color: rgb(252, 145, 38) !important;
+    color: #272727 !important;
+
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.nav-link.active:hover {
+    background-color: rgb(252, 145, 38) !important;
+    color: #272727 !important;
+}
+
+.log_in {
+    width: 100px !important;
+    height: auto;
+    background-color: #7e97a6 !important;
+    color: #373640 !important;
+    border: solid 2px rgb(126,126,126) !important;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.log_in:hover {
+    background-color: #7e97a642 !important;
+    border: solid 2px #63686E !important;
+    color:white !important;
+}
+/* FI NAVBAR*/
+
+/* PORTADA */
+
+/* ---------------- Parallax ------------------- */
+#parallax-back {
+    margin-top: 90px;
+    background: url('../img/portada.png') no-repeat ; /* Nuestra imagen de fondo */
+    background-size: auto; /* Encajamos la imagen al 100% del ancho */
+    background-position-x: 0px;
+    background-position-y: 0px;
+    height: 920px;
+}
+@media (max-width: 576px) {
+    #parallax-back {
+        height: 750px;
+    }
+}
+
+
+.contingut {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.nomEmpresa {
+    margin-top: 150px;
+}
+
+.nomEmpresa > ul {
+    list-style: none;
+    margin-top:50px;
+}
+.nomEmpresa > ul > li{
+    margin-bottom: 10px;
+    font-weight:bolder;
+}
+.nomEmpresa > hr {
+    border-top: 10px solid #373640;
+}
+.saberMes {
+    margin-top: 50px !important;
+    width: 200px !important;
+    height: 50px !important;
+    text-align: center !important;
+    margin-bottom: 150px;
+}
+ /* FI PORTADA */
+
+.pagina {
+    width: 100%;
+    height:auto;
+}
+.seccio1{
+    width: 100%;
+    height: auto;
+    background-color: #7e97a6;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.seccio1 ul{
+    list-style:none;
+    margin-top:50px;
+    text-align:right;
+}
+.seccio1 li{
+    margin-bottom:15px;
+    font-size:20px;
+}
+.seccio1 img {
+    border-style: solid;
+    border-color: #373640;
+    border-radius: 5px ;
+    border-width: 3px;
+}
+.element-rodona {
+    color: #373640;
+    border: 3px solid #373640;
+    padding: 21px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 1;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom:20px;
+}
+a.element-rodona:hover {
+    color: #3736404f;
+    border: 3px solid #3736404f;
+}
+
+.seccio2 {
+    width: 100%;
+    height: auto;
+    background-color: #373640;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: #7e97a6;
+}
+.seccio2 ul{
+    list-style:none;
+    margin-top:50px;
+}
+.seccio2 li{
+    margin-bottom:15px;
+    font-size:20px;
+}
+.seccio2 h2 {
+    color: #7e97a6 !important;
+    text-align: right;
+}
+.seccio2 img {
+    border-style: solid;
+    border-color: #7e97a6 ;
+    border-radius: 5px ;
+    border-width: 3px;
+}
+
+.page-footer {
+    background-color: #373640;
+    color: #7e97a6;
+}
+footer-copyright {
+    background-color: black;
+    color: white;
+}
+
+/* PAG LOGIN */
+.visible {
+    height: auto;
+    width: 100%;
+    background-color: #7e97a6;
+    padding-top: 150px;
+    padding-bottom: 250px;
+}
+
+.caixaLogin {
+    height:auto;
+    width: 60%;
+    background-color: #37364059;
+    border: solid 4px #373640;
+    border-radius:20px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+}
+@media (max-width: 576px) {
+    .caixaLogin {
+        width: 90%;
+    }
+}
+form {
+    padding:50px;
+}
+label {
+    font-weight: bold;
+    color: #373640;
+}
+@media (max-width: 576px) {
+    label{
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    input{
+        font-size: 10px;
+    }
+}
+.caixaLogin::before {
+    padding: 10px 50px 10px 50px;
+    background-color: #373640;
+    color: #7e97a6;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    content: "Inicia Sessió";
+    position: absolute;
+    left: 23px;
+    top: -25px;
+    z-index: 1;
+}
+
+/* FIN PAG LOGIN */
+/* TABLE */
+.capsalera{
+    background-color: #373640;
+    color: #838288;
+}
+/* HORIZONTAL */
+
+@-webkit-keyframes horizontal {
+  0% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  6% {
+    -webkit-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  12% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  18% {
+    -webkit-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  24% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  30% {
+    -webkit-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  36% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
+
+@keyframes horizontal {
+  0% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  6% {
+    -webkit-transform: translate(5px,0);
+    -ms-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  12% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  18% {
+    -webkit-transform: translate(5px,0);
+    -ms-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  24% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  30% {
+    -webkit-transform: translate(5px,0);
+    -ms-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  36% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
+
+.faa-horizontal.animated,
+.faa-horizontal.animated-hover:hover,
+.faa-parent.animated-hover:hover > .faa-horizontal {
+  -webkit-animation: horizontal 2s ease infinite;
+  animation: horizontal 2s ease infinite;
+}
+.alert p{
+    text-align: center;
+}
+.mostrarMes {
+    color: #373640;
+}
+.mostrarMes:hover {
+    color: #37364059;
+}
+.mostrarMenos {
+    color: #373640;
+}
+.mostrarMenos:hover {
+    color: #37364059;
+}
+/* END TABLE */
+
+.logotip {
+    max-width: 200px;
+}
+
+/* PAG usuaris */
+.caixausers{
+    width:200px;
+    height:350px;
+    padding: 20px;
+    background-color: #37364059;
+    border: solid 4px #373640;
+    border-radius:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:30px;
+    position:relative;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    padding-bottom:20px;
+}
+.boto2{
+    background-color:#373640;
+    padding:10px;
+    border: solid 3px  #7e97a6;
+    border-radius: 10px;
+    color:#7e97a6!important; 
+    text-decoration: none;
+}
+.boto2:hover{
+    background-color:#7e97a6; 
+    border: solid 3px  #373640;
+    border-radius: 10px;
+    color:#373640!important;
+    text-decoration: none;
+    cursor:pointer;
+}
+.dropdown-menu{
+    background-color:#373640;
+    padding:10px;
+    border: solid 3px  #7e97a6;
+    border-radius: 10px;
+    color:#7e97a6!important; 
+    text-decoration: none;
+}
+.dropdown-menu > li > a{
+    color:#7e97a6!important;
+}
+.dropdown-menu > li > a:hover{
+    color:white!important;
+    text-decoration:none;
+}
+.dropdown-menu:hover{
+    border: solid 3px  #7e97a6;
+    border-radius: 10px;
+    color:#373640;
+    text-decoration: none;
+}
+.afegirusers{
+    margin-top:30px;
+}
+hr{
+    border-top: 10px solid #373640;
+}
+/* END PAG usersS */
+/* PAG users */
+.caixausers{
+    position:relative;
+    padding:10px;
+    height:auto;
+    width: auto;
+    background-color: #37364059;
+    border: solid 4px #373640;
+    border-radius:20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+}
+.caixausers::before {
+    padding: 10px 50px 10px 50px;
+    background-color: #373640;
+    color: #7e97a6;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    content: "Afegir Usuari";
+    position: absolute;
+    left: 23px;
+    top: -25px;
+    z-index: 1;
+}
+.hrFitxa{
+    border-top: 5px solid #373640;
+}
+/* END PAG users */
+/* PAG JUGADOR */
+.caixaJugador{
+    position:relative;
+    padding:10px;
+    height:auto;
+    width: auto;
+    background-color: #37364059;
+    border: solid 4px #373640;
+    border-radius:20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+}
+.caixaJugador::before {
+    padding: 10px 50px 10px 50px;
+    background-color: #373640;
+    color: #7e97a6;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    content: "Afegir Jugador";
+    position: absolute;
+    left: 23px;
+    top: -25px;
+    z-index: 1;
+}
+.caixaEditarJugador{
+    position:relative;
+    padding:10px;
+    height:auto;
+    width: auto;
+    background-color: #37364059;
+    border: solid 4px #373640;
+    border-radius:20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+}
+.caixaEditarJugador::before {
+    padding: 10px 50px 10px 50px;
+    background-color: #373640;
+    color: #7e97a6;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    content: "Editar Jugador";
+    position: absolute;
+    left: 23px;
+    top: -25px;
+    z-index: 1;
+}
+/* END PAG JUGADOR */
+/* PAG EQUIP */
+.caixaEquip{
+    position:relative;
+    padding:10px;
+    height:auto;
+    width: auto;
+    background-color: #37364059;
+    border: solid 4px #373640;
+    border-radius:20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+}
+.caixaEquip::before {
+    padding: 10px 50px 10px 50px;
+    background-color: #373640;
+    color: #7e97a6;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    content: "Afegir Equip";
+    position: absolute;
+    left: 23px;
+    top: -25px;
+    z-index: 1;
+}
+/* END PAG EQUIP */
+a.desactivat{
+    pointer-events: none;
+    cursor: default;
+    color:white!important;
+}
+a.desactivatBoto{
+    pointer-events: none;
+    cursor: default;
+    color:white!important;
+    background-color:#7e97a642!important;
+}
+#scrolltop {
+    color:rgb(244,251,203);
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+}
+
+#scrolltop>i:hover {
+  color: #555;
+}
+table{
+  text-align: center!important;
+}
+td{
+  vertical-align: inherit!important;
+}
+th{
+  vertical-align: inherit!important;
+}
+.modal-body{
+  padding:20px;
+  background-color:#7e97a6;
+}
+.modal-header{
+  background-color:#373640;
+  color:#7e97a6;
+}
+
+.modal-footer{
+  background-color:#373640;
+}
+
+.modal-backdrop{
+    opacity:0.75 !important;
+}
+
+.boto_panell{
+    font-size: 30px;
+    padding:15px;
+    border:solid 1px grey;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#373640;
+    border: solid 3px  #373640;
+    border-radius: 10px;
+    color:#7e97a6!important; 
+    text-decoration: none;
+}
+.boto_panell:hover{
+    background-color:#7e97a6; 
+    border: solid 3px  #373640;
+    border-radius: 10px;
+    color:#373640!important;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 21px 5px rgba(168,168,168,1);
+    -moz-box-shadow: 0px 0px 21px 5px rgba(168,168,168,1);
+    box-shadow: 0px 0px 21px 5px rgba(168,168,168,1);
+}
+.fila_equips:hover{
+    background-color:#accbde!important;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+/* PAG EQUIP */
+.caixaInfoEquip{
+    position:relative;
+    padding:40px;
+    height:auto;
+    width: auto;
+    background-color: #37364059;
+    border: solid 4px #373640;
+    border-radius:20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+}
+.caixaInfoEquip::before {
+    padding: 10px 50px 10px 50px;
+    background-color: #373640;
+    color: #7e97a6;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    content: "Informació";
+    position: absolute;
+    left: 23px;
+    top: -25px;
+    z-index: 1;
+}
+/* END PAG EQUIP */
+
+/* CRONOMETRO */
+.times .time {
+	font-size: 50px;
+	font-weight: bold;
+	padding: 20px;
+	border-top: 1px solid #cecece;
+	border-left: 1px solid #cecece;
+	border-right: 1px solid #cecece;
+}
+.times .time:first-child {
+	border-right: 0px;
+}
+.times .time:last-child {
+	border-left: 0px;
+}
+.times .time i {
+	font-size: 16px;
+}
+.crono-width {
+	background: #fff;
+	width: 100%;
+	margin: 0px;
+}
+.btn-crono {
+	color: #fff;
+	cursor: pointer;
+	font-size: 30px;
+	padding: 20px;
+	transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+	-o-transition: 0.3s all;
+}
+.active-btn {
+	background: #56ca7f !important;
+	border-bottom: 7px solid #1d9447 !important;
+}
+.active-btn:hover {
+	background: #1d9447 !important;
+}
+.start-btn {
+	background: #3396d0;
+	border-bottom: 7px solid #0b79b9;
+}
+.start-btn:hover {
+	background: #0b79b9;
+}
+.stop-btn {
+	background: #3a3a3a;
+	border-bottom: 7px solid #000;
+}
+.stop-btn:hover {
+	background: #000;
+}
+.guarda-btn {
+	background: #63686E;
+	border-bottom: 7px solid #373640;
+}
+.guarda-btn:hover {
+	background: #373640;
+	border-bottom: 7px solid #63686E;
+}
+/* separator */
+.separator {
+	margin: 80px 0;
+}
+/* END CRONOMETRO */
