@@ -76,7 +76,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>${springframework.version}</version>
+            <version>4.3.18</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
@@ -88,7 +88,7 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-core</artifactId>
-            <version>${spring-security.version}</version>
+            <version>4.2.4</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
